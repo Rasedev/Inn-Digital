@@ -1,0 +1,120 @@
+
+
+/* 
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 95px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: auto;
+  
+  }
+.swiper-button-prev{
+  background: #FF7628;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: #FFFFFF;
+  opacity: 50%;
+  left: 0px;
+}
+.swiper-button-next{
+  background: #FF7628;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: #FFFFFF;
+  right: 0px;
+}
+
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 22px;
+} */
+
+
+
+
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 80%; 
+  height: auto;
+  /* max-width: 370px;  */
+  margin: 0 auto;
+  padding-left: 4px;
+}
+
+
+.swiper-button-prev, .swiper-button-next {
+  background: #FF7628;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  color: #FFFFFF;
+  opacity: 50%;
+}
+
+.swiper-button-prev {
+  left: 0px;
+}
+
+.swiper-button-next {
+  right: 0px;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+  font-size: 22px;
+} 
+
+/* Media Queries for smaller screens */
+@media (max-width: 768px) {
+  .swiper {
+      padding-top: 30px;
+      padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+      width: 90%; /* Slides will take more width on smaller screens */
+      max-width: 250px;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+      width: 40px;
+      height: 40px;
+  }
+
+  .swiper-button-prev:after, .swiper-button-next:after {
+      font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .swiper-slide {
+      width: 100%; /* Full width slides on very small screens */
+      max-width: none;
+  }
+
+  .swiper-button-prev, .swiper-button-next {
+      width: 30px;
+      height: 30px;
+  }
+
+  .swiper-button-prev:after, .swiper-button-next:after {
+      font-size: 16px;
+  }
+}
+
+
+
