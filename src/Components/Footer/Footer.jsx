@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="bg-white py-8 md:py-16">
       <Container>
-        <div className="flex flex-col md:flex-row justify-between gap-8 md:gap-16">
+        <div className="max-w-[1170px] flex flex-col md:flex-row justify-between gap-8 md:gap-16">
           <div className="flex flex-col items-center md:items-start">
             <img className="w-[135px] h-[73px]" src={logo} alt="Logo" />
             <p className="md:w-[449px] text-[#6C7D93] text-[16px] md:text-[18px] leading-6 text-center md:text-left mt-[44px] font-nunito font-normal px-3 md:px-0">

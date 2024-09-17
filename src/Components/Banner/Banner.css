@@ -13,11 +13,8 @@
     width: 30%; 
     height: 30%; 
   } */
-  .gray-box {
-    width: 100px;
-    height: 100px;
-    background-color: #C4C4C4;
-    position: absolute;
+  .box {
+    position: relative;
   }
   
   .box1 {
@@ -35,14 +32,14 @@
 
 
 
-.box1::before {
+.box::before {
     content: '';
     position: absolute;
     top: -5px;
     right: -5px;
-    width: 101%; 
-    height: 101%; 
-    background-color: transparent;
+    width: 200px; 
+    height: 150px; 
+    background-color: #C4C4C4;
     border-top: 5px solid white; 
     border-right: 5px solid white; 
     border-radius: 30px; 

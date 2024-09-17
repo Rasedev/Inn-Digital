@@ -23,9 +23,9 @@ export default {
         nunito:['Nunito', 'sans-serif'],
        
       },
-      maxWidth: {
-				'container': '1320px',
-			},
+      // maxWidth: {
+			// 	'container': '1320px',
+			// },
     },
   },
   plugins: [],

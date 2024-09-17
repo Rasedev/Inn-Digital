@@ -1,27 +1,3 @@
-// import React from "react";
-
-// const ServicesItem = ({ img, title, des, btn }) => {
-//   return (
-//     <>
-//       <div className="w-[370px] h-[395px] bg-[#EBF7E9] left-[373px] rounded-[20px] mx-auto text-center">
-//         <div className=" w-36 pt-[52px] m-auto pb-[28px]">
-//           <img src={img} alt="icon" className="w-16 h-16 mx-auto " />
-//         </div>
-//         <div className="text-center px-[32px] ">
-//           <h2 className="text-[#202427] text-[29px] font-Open font-semibold mb-2 leading-9">{title}</h2>
-//           <p className="text-[#6C7D93] text-[18px] font-paprika leading-8 pb-[20px] ">{des}</p>
-//           <button className="mx-auto text-[#202427] px-3 text-[18px] font-Open font-bold leading-6 ml-0   hover:bg-orange-300 hover:text-[#FF7628] before:block before:absolute before:-inset-1 before:rounded-full before:bg-[#FF7628] relative inline-block before:w-[33px] before:h-[33px] before:opacity-[50%]">
-//           {btn}
-//         </button>
-//         </div>
-        
-//       </div>
-//     </>
-//   );
-// };
-
-// export default ServicesItem;
-
 
 import React from "react";
 
